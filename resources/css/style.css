@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 header{
@@ -23,9 +24,28 @@ header{
   justify-content: center;
 }
 
-.left-right{
+.left-right, .banner{
   display: flex;
 
+}
+
+.banner .banner-image{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+.banner-image img{
+  width: 100%;
+  height: auto;
+}
+
+.highlight{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.highlight img, .highlight video{
+  width: 100%;
+  height: auto;
 }
 
 .sidebar{
@@ -35,20 +55,34 @@ header{
   padding: 16px;
 }
 
-.sidebar img{
+.sidebar-item{
+  padding: 16px 0 16px 16px;
+}
+
+.sidebar-item img{
   width: 35%;
+  height: auto;
+}
+
+#curriculum{
+  padding: 32px 72px;
 }
 
 .courses{
   display: flex;
   flex-wrap: wrap;
+  padding: 32px 0;
+}
+
+.course-type{
+  width: 30%;
+}
+
+.course-type img{
+  width: 100%;
+  overflow: hidden;
 }
 
 .course-type .description{
-  padding: 16px;
-}
-
-.highlight video{
-  width: 60%;
-
+  max-width: 100%;
 }
