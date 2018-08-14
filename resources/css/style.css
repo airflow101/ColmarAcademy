@@ -1,3 +1,54 @@
 html{
   font-size: 16px;
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+#main-banner{
+  display: flex;
+}
+
+#main-banner .description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-right{
+  display: flex;
+
+}
+
+.sidebar{
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  padding: 16px;
+}
+
+.sidebar img{
+  width: 35%;
+}
+
+.courses{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-type .description{
+  padding: 16px;
+}
+
+.highlight video{
+  width: 60%;
+
+}
